@@ -1,10 +1,10 @@
 {
-  "name": "gulp-browserify-browserSync",
+  "name": "credit-card-check",
   "version": "0.0.0",
-  "description": "GulpJS + Browserify (watchify) + Browser Sync FTW",
+  "description": "Simple Credit Card Check",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha js/luhn-tests.js -R spec"
   },
   "author": "Franklin Javier",
   "license": "MIT",
@@ -19,7 +19,10 @@
     "gulp-uglify": "^0.3.1",
     "gulp-watchify": "^0.2.0",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^0.6.4"
+    "watchify": "^0.6.4",
+    "should": "~7.1.0",
+    "mocha": "~2.3.3",
+    "lodash": "~3.10.1"
   },
   "dependencies": {
     "browserify": "^6.1.0",

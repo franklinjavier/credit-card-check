@@ -1,4 +1,4 @@
-gulp-browserify-browserSync
+Simple Credit Card Check
 ===========================
 
-GulpJS + Browserify (watchify) + Browser Sync FTW
+
