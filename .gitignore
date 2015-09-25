@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io
 
 ### Node ###
+=======
+>>>>>>> f64309d1c6cd4f5520e68053cc861fa34ac7fe9a
 # Logs
 logs
 *.log
@@ -18,12 +21,19 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
+<<<<<<< HEAD
 .gulp
+=======
+
+# node-waf configuration
+.lock-wscript
+>>>>>>> f64309d1c6cd4f5520e68053cc861fa34ac7fe9a
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directory
+<<<<<<< HEAD
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
@@ -42,3 +52,7 @@ bundle.js
 Session.vim
 .netrwhist
 *~
+=======
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+>>>>>>> f64309d1c6cd4f5520e68053cc861fa34ac7fe9a
